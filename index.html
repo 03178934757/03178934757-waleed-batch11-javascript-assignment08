@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/waleed’s cofee.jpg">
+</head>
+
+<body>
+    <div class="extra">
+        <h1>AVAST PRESENTS</h1>
+        <br>
+        <br>
+        <h3 id="myName"></h3>
+    </div>
+
+    <div class="main">
+        <div class="upper">
+            <h1>RANDOM PASSWORD GENERATOR</h1>
+            <p>Create strong and secure passwords to keep your account safe online.</p>
+        </div>
+        <br>
+        <div class="middle">
+            <input type="text" minlength="05" maxlength="20" id="passbox" placeholder="Password">
+            <span class="material-icons inputbox" id="inputbox">
+                content_copy
+                </span>
+            <button id="generatebtn">
+                GENERATE PASSWORD
+            </button>
+        </div>
+        <br>
+        <div class="range">
+            <p>PASSWORD LENGHT</p>
+            <span id="slidervalue"></span>
+            <input type="range" value="05" name="" id="inputslider" min="05" max="20">
+        </div>
+        <br>
+        <br>
+        <div class="tick">
+            <p>CHARACTER USED</p>
+            <label>
+                <input id="upper" type="checkbox" name="" ><span>ABC</span>
+            </label>
+            <label>
+                <input id="lower" type="checkbox" name="" ><span>abc</span>
+            </label>
+            <label>
+                <input id="num" type="checkbox" name="" ><span>123</span>
+            </label>
+            <label>
+                <input id="sym" type="checkbox" name="" ><span>#$&</span>
+            </label>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

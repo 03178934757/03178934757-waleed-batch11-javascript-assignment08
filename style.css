@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.extra{
+    font-size: 25px;
+    margin-left:200px;
+    padding: 50px;
+    text-align: center;
+    border-left:3px solid white ;
+    border-right: 3px solid white;
+}
+
+body {
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: linear-gradient(to left bottom, #000000, #a08a8a);
+}
+
+.main {
+    border: 0.5px solid white;
+    border-radius: 10px;
+    padding: 30px;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    margin-left: auto;
+    box-shadow: 10px 10px 24px rgb(255, 255, 255),18px 18px 10px rgb(4, 4, 4);
+}
+
+.upper>h1 {
+    font-size: 35px;
+    text-align: center;
+}
+.upper>p{
+    text-align: center;
+    font-size: 19px;
+}
+
+.middle>input{
+    width: 100%;
+    height: 70px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.inputbox {
+    position: relative;
+    top: -46px;
+    width: 30px;
+    height: 40px;
+    margin-left: auto;
+    z-index: 2;
+    color: #797979;
+    cursor: pointer;
+}
+
+.inputbox:hover{
+    color: #000;
+}
+
+.inputbox span {
+    position: absolute;
+    
+}
+
+.middle>button{
+    margin-top: 20px;
+    width: 50%;
+    height: 40px;
+    border: white;
+    color: white;
+    background: rgb(186, 139, 147);
+}
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle>button:hover {
+    background: #000;
+    cursor: pointer;
+    transition-duration: 01s;
+}    
+
+.range {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.tick>label {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.tick>input{
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    height: 20px;
+}
+
+.tick>span{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.tick>p {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tick>input:hover{
+    background-color: black;
+    transition-duration: 2s;
+    color: #000;
+
+
+}
+
+
+
